@@ -22,7 +22,7 @@ switch ($method) {
       {
         "action": "input",
         "submitOnHash": "true",
-        "eventUrl": ["https://example.com/ivr"]
+        "eventUrl": ["https://phonyconvo.tech/ivr"]
       }
     ]';
     header('Content-Type: application/json');
