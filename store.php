@@ -34,4 +34,4 @@ switch ($method) {
     break;
 }
 
-?php>
+?>
