@@ -25,7 +25,7 @@ function handle_call_status()
               },
               {
                 "action": "connect",
-                "eventUrl": ["https://example.com/events"],
+                "eventUrl": ["https://phonyconvo.tech/event"],
                 "from": "441632960960",
                 "endpoint": [
                   {
@@ -45,7 +45,7 @@ function handle_call_status()
           },
           {
             "action": "connect",
-            "eventUrl": ["https://example.com/events"],
+            "eventUrl": ["https://phonyconvo/event"],
             "from": "441632960960",
             "endpoint": [
               {
@@ -66,7 +66,7 @@ function handle_call_status()
             {
               "action": "input",
               "submitOnHash": "true",
-              "eventUrl": ["https://example.com/ivr"]
+              "eventUrl": ["https://phonyconvo.tech/ivr"]
             }
           ]';
           break;
