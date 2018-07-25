@@ -1,0 +1,79 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+body{
+  background-color:#FFDE96;
+  vertical-align:top;
+}
+#menu{
+  width:100%;
+}
+input{
+  width: 42.5%;
+  background-color:white;
+  border: 2px solid black;
+  padding-left:1em;
+}
+#transcipInside > .transcibe:nth-of-type(even) {
+  color:#34AB77;
+
+}
+.phrase{
+  padding:1em;
+  color:white;
+  background-color:#34AB77;
+  border-radius:1em;
+  margin-right:1em;
+  float:left;
+  font-size:1.5em;
+  font-weight:bold;
+}
+#transcript{
+  height:40%;
+  width:42.5%;
+  margin:1em 2.5% 0 0%;
+  display:inline-block;
+  display:inline-flex;
+  flex-direction: column;
+  color:#222222;
+  box-sizing:border-box;
+  
+}
+#emotions{
+  clear:both;
+  vertical-align:top;
+
+}
+#menu h2{
+  display:inline-block;
+  margin-left:1em;
+}
+#keyPhrases {
+  width:100%;
+}
+#transcipInside{
+  box-shadow: 0 0px 5px 0 rgba(0,0,0,.14), 0 0px 10px 0 rgba(0,0,0,.12), 0 0px 4px -1px rgba(0,0,0,.2);
+  width:100%;
+  flex:1;
+  padding:1em;
+  box-sizing:border-box;
+  border-radius:1em;
+  background-color:white;
+  overflow-y:scroll;
+}
+#emotions{
+
+  height:40%;
+  width:42.5%;
+  margin:1em 2.5% 0 5%;
+  display:inline-block;
+  overflow-y:scroll;
+  color:#222222;
+  box-sizing:border-box;
+}

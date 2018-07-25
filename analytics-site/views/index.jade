@@ -1,0 +1,29 @@
+extends layout
+
+block content
+  h1 Review your previous Conversations
+  #menu
+    input(ng-model="convoId", placeholder="Enter phone conversation uuid")
+    h2(ng-if="currentRecording") {{currentRecording.type}}
+  #transcript
+    h2 Transcription
+    #transcipInside
+      span.transcibe(ng-repeat="record in currentRecording.transcription track by $index", ng-style="{color: positivity($index)}") 
+        | {{record}}
+        br
+      //span(ng-repeat="emot in currentScores") {{emot}}
+      //span(ng-repeat="kp in currentPhrases") {{kp}}
+      div(ng-if=" !currentRecording") Sorry no conversations exist with that uuid.
+  #emotions
+    h2 Positivity
+    //span(ng-repeat="emot in currentScores") {{emot}}
+    canvas(id="line", height="100%", width="100%",class="chart chart-line",chart-data="data", chart-colors="chartcolors",  chart-labels="labels", chart-series="series", chart-options="options",chart-dataset-override="datasetOverride", chart-click="onClick")
+  #keyPhrases 
+    h2 Key Phrases
+    .phrase(ng-repeat="kp in currentPhrases track by $index")
+      {{kp}}
+  //p Welcome to #{title}
+    | {{recordings}}
+  //div(ng-repeat="record in recordings") {{record}}
+
+  

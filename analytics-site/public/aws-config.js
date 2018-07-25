@@ -1,0 +1,3 @@
+const aws_bots_config = '[{"name":"inforMED","alias":"Informed","description":"Bot to help keep patients informed and engaged.","bot-template":"bot-flowers","commands-help":["I would like to pick up flowers","I would like to order some flowers","Buy flowers"],"region":"us-east-1"}]';
+const aws_cognito_identity_pool_id = 'd598e55a-bc81-4c37-8390-5034f2d0089b';
+const aws_cognito_region = 'us-east-1';

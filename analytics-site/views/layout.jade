@@ -1,0 +1,46 @@
+doctype html
+html(ng-app="cityhack")
+  head
+    title= title
+
+    meta(http-equiv="X-UA-Compatible", content="IE=edge")
+    //disable zooming capabilities
+    meta(name="viewport", content="width=device-width,initial-scale=1, maximum-scale=1, user-scalable=no")
+    meta(charset="utf-8")
+
+    //Jquery JS and CSS
+    script(src="https://code.jquery.com/jquery-3.2.1.min.js",integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=",crossorigin="anonymous")
+    script(src="https://code.jquery.com/ui/1.12.1/jquery-ui.js")
+    link(rel="stylesheet", href="https://code.jquery.com/ui/1.10.4/themes/black-tie/jquery-ui.css")
+    
+    //Angular Material style sheet
+    link(rel="stylesheet", href="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.css")
+
+    //angular
+    //script(src="../node_modules/chart.js/dist/Chart.min.js")
+    script(src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.min.js")
+
+    script(src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js")
+    script(src="https://cdn.jsdelivr.net/angular.chartjs/latest/angular-chart.min.js")
+
+    script(src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.14.3/ui-bootstrap-tpls.js")
+    script(src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.14.3/ui-bootstrap-tpls.js")   
+
+    //Font awesome
+    script(src="https://use.fontawesome.com/1079ce90fa.js") 
+
+
+    script(src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-animate.min.js")
+    script(src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-aria.min.js")
+    script(src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-messages.min.js")
+    //-Angular Material Library 
+    script(src="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.js")
+
+    script(type="text/javascript", src="/javascripts/index.js")
+    script(src='/application.js')
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    
+  
+  
+  body(ng-controller="mainController")
+    block content

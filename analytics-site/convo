@@ -1,0 +1,24 @@
+[
+  {
+      "action": "talk",
+      "text": "Hello, and welcome to this social situation practice demo. Press 1 to experience a job interview or press 2 for small talk followed by the hash key.",
+      "voiceName": "Emma",
+      "bargeIn": true
+  },
+  {
+      "action": "record",
+      "eventUrl": [
+          "http://phonyconvo-env.us-west-2.elasticbeanstalk.com/recordings"
+      ],
+      "beepStart": true
+  },
+  {
+    "action": "input",
+    "submitOnHash": true,
+    "eventUrl": ["http://phonyconvo-env.us-west-2.elasticbeanstalk.com/bots"]
+  },
+  {
+      "action": "talk",
+      "text": "We hope you enjoyed your social situation practice. Goodbye"
+  }
+]
